@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+#wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+.header{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    color: black;
+    align-items: center;
+    gap: 30px;
+    padding-left: 20px;
+    font-size: 0.75rem;
+    font-weight: 550;
+}
+.logo{
+    width: 7%;
+    cursor: pointer;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    width: 100%;
+    height: 590px;
+    background-image: url(asset\ 3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.shop-section{
+    padding: 10px 0px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box1 {
+    background-image: linear-gradient(to top,rgb(0,0,0,0.8),rgb(0,0,0,0)), url(asset\ 4.jpeg);
+    background-size: cover;
+    width: 24%;
+}
+.box2 {
+    background-image: linear-gradient(to top,rgb(0,0,0,0.8),rgb(0,0,0,0)), url(asset\ 5.jpeg);
+    background-size: cover;
+    width: 24%;
+}
+.box3 {
+    background-image: linear-gradient(to top,rgb(0,0,0,0.8),rgb(0,0,0,0)), url(asset\ 6.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 24%;
+}
+.box4 {
+    background-image: linear-gradient(to top,rgb(0,0,0,0.8),rgb(0,0,0,0)), url(asset\ 7.jpeg);
+    width: 24%;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    cursor: pointer;
+}
+.product-desc{
+    font-size: large;
+    font-weight: 550px;
+    margin-bottom: 20px;
+}
+.shop-now{
+    font-size: medium;
+    font-weight: 900px;
+    margin-bottom: 30px;
+}
+.features{
+    padding: 20px 7%;
+    width: 100%;
+    background-color: rgba(201, 192, 192, 0.363);
+}
+.features-title{
+    width: 100%;
+    color: black;
+    font-size: 2rem;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.features1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blog{
+    width: 49%;
+    text-align: center;
+    cursor: pointer;
+}
+.blog1-img{
+    background-image: url(asset\ 8.jpeg);
+    width: 100%;
+    height:300px;
+    background-size: cover;
+}
+.blog2-img{
+    background-image: url(asset\ 9.jpeg);
+    width: 100%;
+    height:300px;
+    background-size: cover;
+}
+figcaption{
+    color: black;
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+.features2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+.explore-blog{
+    width: 32%;
+    text-align: center;
+    cursor: pointer;
+}
+.blog3-img{
+    background-image: url(asset\ 10.jpeg);
+    width: 100%;
+    height:400px;
+    background-size: cover;
+}
+.blog4-img{
+    background-image: url(asset\ 11.jpeg);
+    width: 100%;
+    height:400px;
+    background-size: cover;
+}
+.blog5-img{
+    background-image: url(asset\ 12.jpeg);
+    width: 100%;
+    height:400px;
+    background-size: cover;
+}
+.explore-blog h5{
+    color: black;
+}
+.features3{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 150px 0;
+}
+.more-blog{
+    width: 49%;
+    text-align: center;
+    cursor: pointer;
+}
+.blog6-img{
+    background-image: url(asset\ 13.jpeg);
+    width: 100%;
+    height:300px;
+    background-size: cover;
+}
+.blog7-img{
+    background-image: url(asset\ 14.jpeg);
+    width: 100%;
+    height:300px;
+    background-size: cover;
+}
+.more-blog p{
+    color: black;
+}
+.more-blog small{
+    color: black;
+    font-weight: 600;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    padding: 20px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer-header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-header .header{
+    width: 45%;
+}
+.social-logo{
+    padding-right: 0px;
+    background-image: url(social.png);
+    width: 15%;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.footer-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer a{
+    font-size: small;
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+    cursor: pointer;
+}
+footer small{
+    color: black;
+}
